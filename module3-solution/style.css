@@ -1,0 +1,93 @@
+#header-nav {
+	height: 120px;
+	background-color: lightgrey;
+
+}
+
+#brand {
+	color: black ; 
+}
+
+
+
+#header-nav button {
+	margin-top: 40px;
+	margin-right: 40px;
+	border-color: black;
+
+}
+
+
+
+#collapsable-nav{
+	width: 100%;
+	height: 100px;
+	margin-top: 117px;
+	text-align: center;
+	background-color: lightgrey  ;
+}
+
+li {
+	height: 30px;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+h1 {
+	clear: both;
+}
+
+
+
+#nav-list a {
+	text-align: center;
+	padding-top: 4px ;
+}
+
+
+h2.text-center  {
+
+	margin: 33px;
+}
+
+
+
+
+.content-div  {
+
+	background-color: lightgrey ;
+	
+	margin: 10px ;
+}
+
+
+#section-header {
+	text-align: center;
+	padding-top: 5px;
+	font-size: 21px;
+
+}
+
+#main-content p {
+
+padding: 10px;
+}
+
+@media (max-width: 767px) {
+
+div.content {			/* according to the picture in the example,
+						   the width of the content is smaller compared to
+						   the size of the viewport, so i used 70vw */
+	width: 70vw;
+	margin: auto;
+	float: none;
+
+}
+			
+		
+
+
+
